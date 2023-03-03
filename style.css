@@ -1,0 +1,38 @@
+.top-sect {
+  height: 40vh;
+  width: 100%;
+  background-image: url("./background-image.jpg");
+  background-repeat: no-repeat;
+  backdrop-filter: blur(5px);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-btn {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign-btn:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  float: left;
+  justify-content: center;
+}
